@@ -145,6 +145,9 @@ public class DriversMapsActivity extends FragmentActivity implements OnMapReadyC
     {
         lastLocation=location;
 
+
+        int a;
+
         LatLng latLng=new LatLng(location.getLatitude(),location.getLongitude());
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(12));
