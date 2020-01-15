@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wel"
+    tools:context=".WelcomeActivity">
+
+    <activity android:name=".YourActivity"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="339dp"
+        android:layout_height="100dp"
+        android:layout_x="37dp"
+        android:layout_y="407dp"
+        android:background="#03A9F4"
+        android:text="I am a Driver"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="334dp"
+        android:layout_height="101dp"
+        android:layout_x="39dp"
+        android:layout_y="550dp"
+        android:background="#E91E63"
+        android:text="I am a costumer"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
